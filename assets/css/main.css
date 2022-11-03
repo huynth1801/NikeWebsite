@@ -27,7 +27,7 @@
     display: flex;
     list-style: none;
     padding-right: 38px;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
 }
 
@@ -41,11 +41,13 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    /* left: 0;
+    right: 0; */
 }
 
 #header__navbar-icon {
     padding: 0px 12px;
-    /* flex: 1; */
+    flex: 1;
 }
 
 .header__navbar-logo {
@@ -53,45 +55,81 @@
 }
 
 #header__navbar-menu {
-    /* flex: 2; */
+    flex: 8;
 }
 
 .header__navbar-menu-ul {
     display: flex;
     list-style: none;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
 }
 
 .header__navbar-item {
     font-weight: 520;
     color: #111;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 16px;
-    padding-bottom: 18px;
+    padding: 16px 12px 18px;
+    text-align: center;
 }
 
 #header__navbar-options {
+    font-size: 20px;
     display: flex;
     justify-content: space-between;
-    /* flex: 3; */
+    align-items: center;
+    flex: 2.2;
+    margin: 0 24px;
 }
 
 .header__search {
-
+    width: 100%;
+    height: 24px;
+    border: 0px solid #555;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #eee;
+    margin-right: 12px;
 }
 
 .header__search-btn {
+    color: #777;
+    border: none;
+    padding-right: 6px;
+    /* background-color: white; */
+    font-weight: 400;
+    font-size: 20px;
+}
 
+.header__search-btn > i {
+    color: #111;
+    cursor: pointer;
+    /* background-color: white; */
+    /* padding: 6px 8px; */
+    line-height: 28px;
 }
 
 .header__search-input {
-
+    flex: 1;
+    height: 28px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: #eee;
+    opacity: 0.5;
+    width: 100%;
+    /* padding-right: 20px; */
 }
 
-.header__search-heart {
-
+.header__navbar-heart {
+    margin-right: 12px;
+    padding: 6px;
+    background-color: white;
 }
 
-.header__search-cart {
-
+.header__navbar-cart {
+    padding-left: 12px;
+    margin-right: 12px;
 }
