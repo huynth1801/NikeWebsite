@@ -11,17 +11,19 @@
     display: flex;
     justify-content: space-between;
     background-color: #eee;
-    padding: 8px 0;
+    padding: 8px;
     align-items: center;
 }
 
 .header-jordan-icon {
-    padding: 0px 12px;
+    padding: 0px 34px;
 }
+
 
 .header-jordan-icon-image {
     width: 24px;
 }
+
 
 .header-ul {
     display: flex;
@@ -29,11 +31,20 @@
     padding-right: 38px;
     font-size: 13px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .header-item {
     padding: 0 8px;
     border-right: 1px solid rgb(206, 203, 203);
+}
+
+.header-item:hover {
+    color: rgb(151, 150, 150);
+}
+
+.header-item:last-child {
+    border-right: none;
 }
 
 #header__navbar-lists {
@@ -48,6 +59,10 @@
 #header__navbar-icon {
     padding: 0px 12px;
     flex: 1;
+}
+
+#header__navbar-icon:hover {
+    background-color: #fff;;
 }
 
 .header__navbar-logo {
@@ -67,7 +82,7 @@
 }
 
 .header__navbar-item {
-    font-weight: 520;
+    font-weight: 530;
     color: #111;
     padding: 16px 12px 18px;
     text-align: center;
@@ -103,6 +118,13 @@
     font-size: 20px;
 }
 
+.header__search-btn:hover {
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #e5e5e5;
+}
+
 .header__search-btn > i {
     color: #111;
     cursor: pointer;
@@ -123,13 +145,59 @@
     /* padding-right: 20px; */
 }
 
+
 .header__navbar-heart {
     margin-right: 12px;
     padding: 6px;
     background-color: white;
 }
 
+.header__navbar-heart:hover {
+    background-color: #e5e5e5;
+    border-radius: 50%;
+}
+
 .header__navbar-cart {
-    padding-left: 12px;
+    padding: 6px;
     margin-right: 12px;
+}
+
+.header__navbar-cart:hover {
+    background-color: #e5e5e5;
+    border-radius: 50%;
+}
+
+#content {
+
+}
+
+#content__banner {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 58px;
+    background-color: #eee;
+}
+
+#content__banner-hello {
+    font-size: 16px;
+    color: #111;
+    font-weight: 550;
+    height: 16px;
+}
+
+.content__banner-app {
+    height: 24px;
+    padding: 0;
+    text-align: center;
+}
+
+.content__banner-download {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.content__banner-link {
+    text-decoration: underline;
 }
