@@ -106,22 +106,18 @@
     align-items: center;
     padding: 20px;
     background-color: #eee;
-    margin-right: 12px;
+    margin-right: 10px;
 }
 
 .header__search-btn {
-    color: #777;
     border: none;
-    padding-right: 6px;
-    /* background-color: white; */
+    padding: 6px 6px;
     font-weight: 400;
     font-size: 20px;
 }
 
 .header__search-btn:hover {
-    text-align: center;
-    margin: 0 auto;
-    border-radius: 50%;
+    border-radius: 100px;
     background-color: #e5e5e5;
 }
 
