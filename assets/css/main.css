@@ -11,12 +11,12 @@
     display: flex;
     justify-content: space-between;
     background-color: #eee;
-    padding: 8px;
+    padding: 8px 36px;
     align-items: center;
 }
 
 .header-jordan-icon {
-    padding: 0px 34px;
+    padding: 0px 6px;
 }
 
 
@@ -51,14 +51,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
-    /* left: 0;
-    right: 0; */
+    /* text-align: center; */
+    height: 60px;
 }
 
 #header__navbar-icon {
-    padding: 0px 12px;
-    flex: 1;
+    padding: 0px 36px;
+    flex: 3;
 }
 
 #header__navbar-icon:hover {
@@ -67,10 +66,11 @@
 
 .header__navbar-logo {
     width: 60px;
+    /* margin-left: 50px; */
 }
 
 #header__navbar-menu {
-    flex: 8;
+    flex: 6;
 }
 
 .header__navbar-menu-ul {
@@ -79,10 +79,11 @@
     justify-content: center;
     flex-direction: row;
     align-items: center;
+    /* margin: 0 auto; */
 }
 
 .header__navbar-item {
-    font-weight: 530;
+    font-weight: 550;
     color: #111;
     padding: 16px 12px 18px;
     text-align: center;
@@ -93,7 +94,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex: 2.2;
+    flex: 3;
     margin: 0 24px;
 }
 
@@ -143,6 +144,7 @@
 
 
 .header__navbar-heart {
+    cursor: pointer;
     margin-right: 12px;
     padding: 6px;
     background-color: white;
@@ -154,6 +156,7 @@
 }
 
 .header__navbar-cart {
+    cursor: pointer;
     padding: 6px;
     margin-right: 12px;
 }
