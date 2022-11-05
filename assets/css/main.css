@@ -83,7 +83,7 @@
 }
 
 .header__navbar-item {
-    font-weight: 550;
+    font-weight: 530;
     color: #111;
     padding: 16px 12px 18px;
     text-align: center;
@@ -199,4 +199,5 @@
 
 .content__banner-link {
     text-decoration: underline;
+    font-weight: 500;
 }
