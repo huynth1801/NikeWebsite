@@ -4,7 +4,7 @@
     color: #000;
     text-decoration: none;
     box-sizing: border-box;
-    font-family: Helvetica;
+    font-family: 'Helvetica';
 }
 
 #header {
@@ -51,7 +51,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* text-align: center; */
     height: 60px;
 }
 
@@ -79,7 +78,6 @@
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    /* margin: 0 auto; */
 }
 
 .header__navbar-item {
@@ -180,6 +178,7 @@
     color: #111;
     font-weight: 550;
     height: 16px;
+    font-family: 'Futura Condensed Extra Bold';
 }
 
 .content__banner-app {
@@ -511,4 +510,56 @@
 .section__featured-product-btn:hover {
     background-color: #eee;
     color: #555;
+}
+
+#section__more {
+    margin-top: 80px;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+.section__more-p {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.section__more-age {
+    margin-top: 40px;
+    display: flex;
+}
+
+.section__more-product-1 {
+    position: relative;
+    margin-right: 12px;
+}
+
+.section__more-product-2 {
+    position: relative;
+}
+
+.section__more-product-3 {
+    margin-left: 12px;
+    position: relative;
+}
+
+.section__more-img {
+    width: 100%;
+}
+
+.section__more-product-btn {
+    position: absolute;
+    bottom: 50px;
+    left: 16px;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    padding: 12px 24px;
+    cursor: pointer;
+    border: 1.5px solid transparent;    
+    border-radius: 30px;
+}
+
+.section__more-product-btn:hover {
+    background-color: #757575;
+    color: #111 ;
 }
