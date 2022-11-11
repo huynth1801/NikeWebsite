@@ -544,6 +544,7 @@
 
 .section__more-img {
     width: 100%;
+    height: 100%;
 }
 
 .section__more-product-btn {
@@ -562,4 +563,145 @@
 .section__more-product-btn:hover {
     background-color: #757575;
     color: #111 ;
+}
+
+#section__more-lists {
+    margin-top: 84px;
+    margin-left: 260px;
+    margin-right: 260px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section__more-menu {
+    max-width: 920px;
+}
+
+.section__more-menu:nth-child(2) {
+    padding-left: 40px;
+}
+
+.section__more-menu:nth-child(3) {
+    padding-left: 24px;
+}
+
+.section__more-menu h4{
+    margin-bottom: 24px;
+}
+
+.section__more-menu-ul {
+    list-style: none;
+}
+
+
+.section__more-menu-item {
+    color: #757575;
+    padding-bottom: 12px;
+    cursor: pointer;
+}
+
+.section__more-menu-item:hover {
+    color: #111;
+}
+
+/* Footer */
+#footer {
+    /* width: 100%; */
+    background-color: #000;
+    margin-top: 80px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px 0 40px;
+    margin-bottom: 16px;
+}
+
+.footer__modal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+}
+
+.footer__more {
+    padding-right: 80px;
+    line-height: 36px;
+}
+
+.footer__more-member-item {
+    margin-bottom: 8px;
+}
+
+.footer__more-member-item > a{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer__more-member-ul {
+    list-style: none;
+}
+
+.footer__help {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.footer__help-order-ul {
+    list-style: none;
+    font-size: 14px;
+}
+
+.footer__help-order-item-1 {
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+
+.footer__help-order-item-1 > a{
+    color: #fff;
+}
+
+.footer__help-order-item {
+    margin-bottom: 16px;
+}
+
+.footer__help-order-item > a{
+    color: #757575;
+}
+
+.footer__about {
+    padding-left: 80px;
+}
+
+.footer__about-nike-about {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.footer__about-nike-item {
+    margin-bottom: 16px;
+}
+
+.footer__about-nike-item > a {
+    font-size: 14px;
+    color: #757575;
+}
+
+.footer__about-nike-ul {
+    list-style: none;
+}
+
+.footer__social {
+    float: right;
+}
+
+.footer__social-menu-ul {
+    list-style: none;
 }
