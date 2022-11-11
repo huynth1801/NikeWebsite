@@ -616,7 +616,7 @@
 .footer__container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     padding: 40px 40px 0 40px;
     margin-bottom: 16px;
 }
@@ -624,8 +624,9 @@
 .footer__modal {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     float: left;
+    margin-bottom: 22px;
 }
 
 .footer__more {
@@ -633,12 +634,16 @@
     line-height: 36px;
 }
 
+.footer__more-member-item:first-child {
+    margin-top: -10px;
+}
+
 .footer__more-member-item {
-    margin-bottom: 8px;
+    margin-bottom: 4px;
 }
 
 .footer__more-member-item > a{
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
     color: #fff;
 }
@@ -648,18 +653,17 @@
 }
 
 .footer__help {
-    padding-left: 80px;
+    padding-left: 60px;
     padding-right: 80px;
 }
 
 .footer__help-order-ul {
     list-style: none;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .footer__help-order-item-1 {
     margin-bottom: 16px;
-    margin-top: 20px;
 }
 
 .footer__help-order-item-1 > a{
@@ -668,29 +672,39 @@
 
 .footer__help-order-item {
     margin-bottom: 16px;
+    font-size: 12px;
 }
 
-.footer__help-order-item > a{
+
+.footer__help-order-item > a {
     color: #757575;
+}   
+
+.footer__help-order-item>a:hover {
+    color: #fff;
 }
 
 .footer__about {
-    padding-left: 80px;
+    padding-left: 40px;
 }
 
 .footer__about-nike-about {
     color: #fff;
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
     margin-bottom: 16px;
 }
 
 .footer__about-nike-item {
+    font-size: 12px;
     margin-bottom: 16px;
 }
 
+.footer__about-nike-item :hover {
+    color: #fff;
+}
+
 .footer__about-nike-item > a {
-    font-size: 14px;
     color: #757575;
 }
 
@@ -704,4 +718,74 @@
 
 .footer__social-menu-ul {
     list-style: none;
+}
+
+.footer__social-menu-item {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.footer__social-menu-icon {
+    color: #000;
+    font-size: 18px;
+    padding: 6px 6px;
+    border-radius: 30px;
+    background-color: #757575;
+    border: 1.5px solid transparent;
+}
+
+.footer__social-menu-icon:hover {
+    background-color: #fff;
+}
+
+.footer__sub {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 12px;
+    margin: 0 36px;
+}
+
+.footer__sub-addr {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.footer__sub-location  {
+    display: inline-block;
+    padding: 0 12px;
+}
+
+.footer__sub-location span {
+    color: #fff;
+}
+
+
+.footer__sub-addr-icon {
+    color: #fff;
+    padding-right: 8px;
+}
+
+.footer__sub-copyright {
+    margin-left: 24px;
+    display: inline-block;
+}
+
+.footer__sub-label-copyright {
+    color: #757575;
+}
+
+.footer__sub-menu-ul {
+    list-style: none;
+}
+
+.footer__sub-menu-item {
+    color: #555;
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.footer__sub-menu-item:hover {
+    cursor: pointer;
+    color: #fff;
 }
