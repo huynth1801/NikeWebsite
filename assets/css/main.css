@@ -230,6 +230,11 @@
     margin-right: 8px;
 }
 
+.content__gif-btn-about:hover {
+    background-color: #e5e5e5;
+    color: #111;
+}
+
 .content__gif-btn-shop {
     background-color: #111;
     color: #fff;
@@ -237,6 +242,11 @@
     border-radius: 50px;
     padding: 10px 15px;
     cursor: pointer;
+}
+
+.content__gif-btn-shop:hover {
+    background-color: #e5e5e5;
+    color: #111;
 }
 
 #section {
@@ -394,6 +404,10 @@
     cursor: pointer;
     border: 1.5px solid transparent;    
     border-radius: 30px;
+}
+
+.section__rain-product-btn:hover {
+    background-color: #757575;
 }
 
 #section__trending {
